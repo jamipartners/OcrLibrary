@@ -20,6 +20,11 @@ public protocol OCRViewControllerDelegate : AnyObject {
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class OcrController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: OcrFramework.OCRViewControllerDelegate?
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) public func topView()
+  @_Concurrency.MainActor(unsafe) public func bottomView()
+  @_Concurrency.MainActor(unsafe) public func squareViewMain()
+  @_Concurrency.MainActor(unsafe) public func createGuideLabel()
+  @_Concurrency.MainActor(unsafe) public func cereateBottomGuideLabel()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
@@ -32,9 +37,13 @@ public protocol OCRViewControllerDelegate : AnyObject {
 }
 extension OcrFramework.OcrController : OcrFramework.VideoCaptureDelegate {
   @_Concurrency.MainActor(unsafe) public func videoCapture(_ capture: OcrFramework.VideoCapture, didCaptureVideoFrame pixelBuffer: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime)
+  @_Concurrency.MainActor(unsafe) public func image(from pixelBuffer: CoreVideo.CVPixelBuffer) -> UIKit.UIImage?
 }
 extension OcrFramework.OcrController {
+  @_Concurrency.MainActor(unsafe) public func visionRequestDidComplete(request: Vision.VNRequest, error: Swift.Error?)
   @_Concurrency.MainActor(unsafe) public func sendBack(serverResponse: [OcrFramework.ServeResponse])
+  @_Concurrency.MainActor(unsafe) public func checkForPositionNic() -> Swift.Bool
+  @_Concurrency.MainActor(unsafe) public func reset()
 }
 public struct Response : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
