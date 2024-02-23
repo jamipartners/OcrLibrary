@@ -1,0 +1,120 @@
+[
+  {
+    "shortDescription" : "Ultralytics CNIC_Detection_Model_v2 model trained on \/content\/gdrive\/MyDrive\/yolov8\/dataset.yaml",
+    "metadataOutputVersion" : "3.0",
+    "outputSchema" : [
+      {
+        "dataType" : "Float32",
+        "hasShapeFlexibility" : "1",
+        "isOptional" : "0",
+        "shapeFlexibility" : "0... × 1",
+        "shapeRange" : "[[0, -1], [1, 1]]",
+        "formattedType" : "MultiArray (Float32 0 × 1)",
+        "type" : "MultiArray",
+        "shape" : "[0, 1]",
+        "name" : "confidence",
+        "shortDescription" : "Boxes × Class confidence (see user-defined metadata \"classes\")"
+      },
+      {
+        "dataType" : "Float32",
+        "hasShapeFlexibility" : "1",
+        "isOptional" : "0",
+        "shapeFlexibility" : "0... × 4",
+        "shapeRange" : "[[0, -1], [4, 4]]",
+        "formattedType" : "MultiArray (Float32 0 × 4)",
+        "type" : "MultiArray",
+        "shape" : "[0, 4]",
+        "name" : "coordinates",
+        "shortDescription" : "Boxes × [x, y, width, height] (relative to image size)"
+      }
+    ],
+    "version" : "8.1.12",
+    "modelParameters" : [
+
+    ],
+    "author" : "Ultralytics",
+    "specificationVersion" : 5,
+    "storagePrecision" : "Float16",
+    "license" : "AGPL-3.0 https:\/\/ultralytics.com\/license",
+    "mlProgramOperationTypeHistogram" : {
+      "Concat" : 19,
+      "Silu" : 57,
+      "SliceByIndex" : 1,
+      "Sub" : 2,
+      "Transpose" : 2,
+      "UpsampleNearestNeighbor" : 2,
+      "Softmax" : 1,
+      "Mul" : 4,
+      "Cast" : 3,
+      "MaxPool" : 3,
+      "Add" : 8,
+      "Reshape" : 5,
+      "Sigmoid" : 1,
+      "Split" : 11,
+      "Conv" : 64
+    },
+    "computePrecision" : "Mixed (Float16, Float32, Int32)",
+    "isUpdatable" : "0",
+    "availability" : {
+      "macOS" : "11.0",
+      "tvOS" : "14.0",
+      "watchOS" : "7.0",
+      "iOS" : "14.0",
+      "macCatalyst" : "14.0"
+    },
+    "modelType" : {
+      "name" : "MLModelType_pipeline",
+      "structure" : [
+        {
+          "name" : "MLModelType_mlProgram"
+        },
+        {
+          "name" : "MLModelType_nonMaximumSuppression"
+        }
+      ]
+    },
+    "inputSchema" : [
+      {
+        "height" : "640",
+        "colorspace" : "RGB",
+        "isOptional" : "0",
+        "width" : "640",
+        "isColor" : "1",
+        "formattedType" : "Image (Color 640 × 640)",
+        "hasSizeFlexibility" : "0",
+        "type" : "Image",
+        "shortDescription" : "Input image",
+        "name" : "image"
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Double",
+        "type" : "Double",
+        "name" : "iouThreshold",
+        "shortDescription" : "(optional) IOU threshold override (default: 0.45)"
+      },
+      {
+        "isOptional" : "0",
+        "formattedType" : "Double",
+        "type" : "Double",
+        "name" : "confidenceThreshold",
+        "shortDescription" : "(optional) Confidence threshold override (default: 0.25)"
+      }
+    ],
+    "classLabels" : [
+      "CNIC"
+    ],
+    "generatedClassName" : "CNIC_Detection_Model_v2_latest",
+    "userDefinedMetadata" : {
+      "stride" : "32",
+      "Confidence threshold" : "0.25",
+      "IoU threshold" : "0.45",
+      "task" : "detect",
+      "imgsz" : "[640, 640]",
+      "date" : "2024-02-13T08:38:11.784393",
+      "batch" : "1",
+      "names" : "{0: 'CNIC'}"
+    },
+    "method" : "predict"
+  }
+]

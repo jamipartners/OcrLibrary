@@ -1,0 +1,1957 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreMedia",
+        "printedName": "CoreMedia",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Photos",
+        "printedName": "Photos",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OCRViewControllerDelegate",
+        "printedName": "OCRViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "sendDataBack",
+            "printedName": "sendDataBack(data:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OcrFramework.ServeResponse]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServeResponse",
+                    "printedName": "OcrFramework.ServeResponse",
+                    "usr": "s:12OcrFramework13ServeResponseV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework25OCRViewControllerDelegateP12sendDataBack4dataySayAA13ServeResponseVG_tF",
+            "mangledName": "$s12OcrFramework25OCRViewControllerDelegateP12sendDataBack4dataySayAA13ServeResponseVG_tF",
+            "moduleName": "OcrFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : OcrFramework.OCRViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : OcrFramework.OCRViewControllerDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12OcrFramework25OCRViewControllerDelegateP",
+        "mangledName": "$s12OcrFramework25OCRViewControllerDelegateP",
+        "moduleName": "OcrFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "OcrController",
+        "printedName": "OcrController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "OcrFramework.OCRViewControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OcrFramework0A10ControllerC8delegateAA07OCRViewC8Delegate_pSgvp",
+            "mangledName": "$s12OcrFramework0A10ControllerC8delegateAA07OCRViewC8Delegate_pSgvp",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OcrFramework.OCRViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OCRViewControllerDelegate",
+                        "printedName": "OcrFramework.OCRViewControllerDelegate",
+                        "usr": "s:12OcrFramework25OCRViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework0A10ControllerC8delegateAA07OCRViewC8Delegate_pSgvg",
+                "mangledName": "$s12OcrFramework0A10ControllerC8delegateAA07OCRViewC8Delegate_pSgvg",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OcrFramework.OCRViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OCRViewControllerDelegate",
+                        "printedName": "OcrFramework.OCRViewControllerDelegate",
+                        "usr": "s:12OcrFramework25OCRViewControllerDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework0A10ControllerC8delegateAA07OCRViewC8Delegate_pSgvs",
+                "mangledName": "$s12OcrFramework0A10ControllerC8delegateAA07OCRViewC8Delegate_pSgvs",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework0A10ControllerC8delegateAA07OCRViewC8Delegate_pSgvM",
+                "mangledName": "$s12OcrFramework0A10ControllerC8delegateAA07OCRViewC8Delegate_pSgvM",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OcrFramework@objc(cs)OcrController(im)viewDidLoad",
+            "mangledName": "$s12OcrFramework0A10ControllerC11viewDidLoadyyF",
+            "moduleName": "OcrFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveMemoryWarning",
+            "printedName": "didReceiveMemoryWarning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OcrFramework@objc(cs)OcrController(im)didReceiveMemoryWarning",
+            "mangledName": "$s12OcrFramework0A10ControllerC23didReceiveMemoryWarningyyF",
+            "moduleName": "OcrFramework",
+            "overriding": true,
+            "objc_name": "didReceiveMemoryWarning",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillAppear",
+            "printedName": "viewWillAppear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OcrFramework@objc(cs)OcrController(im)viewWillAppear:",
+            "mangledName": "$s12OcrFramework0A10ControllerC14viewWillAppearyySbF",
+            "moduleName": "OcrFramework",
+            "overriding": true,
+            "objc_name": "viewWillAppear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewWillDisappear",
+            "printedName": "viewWillDisappear(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OcrFramework@objc(cs)OcrController(im)viewWillDisappear:",
+            "mangledName": "$s12OcrFramework0A10ControllerC17viewWillDisappearyySbF",
+            "moduleName": "OcrFramework",
+            "overriding": true,
+            "objc_name": "viewWillDisappear:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpModel",
+            "printedName": "setUpModel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework0A10ControllerC10setUpModelyyF",
+            "mangledName": "$s12OcrFramework0A10ControllerC10setUpModelyyF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setUpCamera",
+            "printedName": "setUpCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework0A10ControllerC11setUpCamerayyF",
+            "mangledName": "$s12OcrFramework0A10ControllerC11setUpCamerayyF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLayoutSubviews",
+            "printedName": "viewDidLayoutSubviews()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@OcrFramework@objc(cs)OcrController(im)viewDidLayoutSubviews",
+            "mangledName": "$s12OcrFramework0A10ControllerC21viewDidLayoutSubviewsyyF",
+            "moduleName": "OcrFramework",
+            "overriding": true,
+            "objc_name": "viewDidLayoutSubviews",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "OcrController",
+                "printedName": "OcrFramework.OcrController",
+                "usr": "c:@M@OcrFramework@objc(cs)OcrController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OcrFramework@objc(cs)OcrController(im)initWithNibName:bundle:",
+            "mangledName": "$s12OcrFramework0A10ControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "OcrFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "OcrFramework.OcrController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OcrController",
+                    "printedName": "OcrFramework.OcrController",
+                    "usr": "c:@M@OcrFramework@objc(cs)OcrController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OcrFramework@objc(cs)OcrController(im)initWithCoder:",
+            "mangledName": "$s12OcrFramework0A10ControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "OcrFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "videoCapture",
+            "printedName": "videoCapture(_:didCaptureVideoFrame:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoCapture",
+                "printedName": "OcrFramework.VideoCapture",
+                "usr": "c:@M@OcrFramework@objc(cs)VideoCapture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework0A10ControllerC12videoCapture_03didE10VideoFrame9timestampyAA0gE0C_So11CVBufferRefaSgSo6CMTimeatF",
+            "mangledName": "$s12OcrFramework0A10ControllerC12videoCapture_03didE10VideoFrame9timestampyAA0gE0C_So11CVBufferRefaSgSo6CMTimeatF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendBack",
+            "printedName": "sendBack(serverResponse:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[OcrFramework.ServeResponse]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ServeResponse",
+                    "printedName": "OcrFramework.ServeResponse",
+                    "usr": "s:12OcrFramework13ServeResponseV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework0A10ControllerC8sendBack14serverResponseySayAA05ServeG0VG_tF",
+            "mangledName": "$s12OcrFramework0A10ControllerC8sendBack14serverResponseySayAA05ServeG0VG_tF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OcrFramework@objc(cs)OcrController",
+        "mangledName": "$s12OcrFramework0A10ControllerC",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "VideoCaptureDelegate",
+            "printedName": "VideoCaptureDelegate",
+            "usr": "s:12OcrFramework20VideoCaptureDelegateP",
+            "mangledName": "$s12OcrFramework20VideoCaptureDelegateP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreVideo",
+        "printedName": "CoreVideo",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoCaptureDelegate",
+        "printedName": "VideoCaptureDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "videoCapture",
+            "printedName": "videoCapture(_:didCaptureVideoFrame:timestamp:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VideoCapture",
+                "printedName": "OcrFramework.VideoCapture",
+                "usr": "c:@M@OcrFramework@objc(cs)VideoCapture"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreVideo.CVBuffer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMTime",
+                "printedName": "CoreMedia.CMTime",
+                "usr": "c:@SA@CMTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework20VideoCaptureDelegateP05videoD0_03diddC5Frame9timestampyAA0cD0C_So11CVBufferRefaSgSo6CMTimeatF",
+            "mangledName": "$s12OcrFramework20VideoCaptureDelegateP05videoD0_03diddC5Frame9timestampyAA0cD0C_So11CVBufferRefaSgSo6CMTimeatF",
+            "moduleName": "OcrFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : OcrFramework.VideoCaptureDelegate>",
+            "sugared_genericSig": "<Self where Self : OcrFramework.VideoCaptureDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:12OcrFramework20VideoCaptureDelegateP",
+        "mangledName": "$s12OcrFramework20VideoCaptureDelegateP",
+        "moduleName": "OcrFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VideoCapture",
+        "printedName": "VideoCapture",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "previewLayer",
+            "printedName": "previewLayer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVCaptureVideoPreviewLayer",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                    "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OcrFramework12VideoCaptureC12previewLayerSo09AVCapturec7PreviewF0CSgvp",
+            "mangledName": "$s12OcrFramework12VideoCaptureC12previewLayerSo09AVCapturec7PreviewF0CSgvp",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureVideoPreviewLayer",
+                        "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                        "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC12previewLayerSo09AVCapturec7PreviewF0CSgvg",
+                "mangledName": "$s12OcrFramework12VideoCaptureC12previewLayerSo09AVCapturec7PreviewF0CSgvg",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "AVFoundation.AVCaptureVideoPreviewLayer?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AVCaptureVideoPreviewLayer",
+                        "printedName": "AVFoundation.AVCaptureVideoPreviewLayer",
+                        "usr": "c:objc(cs)AVCaptureVideoPreviewLayer"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC12previewLayerSo09AVCapturec7PreviewF0CSgvs",
+                "mangledName": "$s12OcrFramework12VideoCaptureC12previewLayerSo09AVCapturec7PreviewF0CSgvs",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC12previewLayerSo09AVCapturec7PreviewF0CSgvM",
+                "mangledName": "$s12OcrFramework12VideoCaptureC12previewLayerSo09AVCapturec7PreviewF0CSgvM",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "OcrFramework.VideoCaptureDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OcrFramework12VideoCaptureC8delegateAA0cD8Delegate_pSgvp",
+            "mangledName": "$s12OcrFramework12VideoCaptureC8delegateAA0cD8Delegate_pSgvp",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OcrFramework.VideoCaptureDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoCaptureDelegate",
+                        "printedName": "OcrFramework.VideoCaptureDelegate",
+                        "usr": "s:12OcrFramework20VideoCaptureDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC8delegateAA0cD8Delegate_pSgvg",
+                "mangledName": "$s12OcrFramework12VideoCaptureC8delegateAA0cD8Delegate_pSgvg",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "OcrFramework.VideoCaptureDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VideoCaptureDelegate",
+                        "printedName": "OcrFramework.VideoCaptureDelegate",
+                        "usr": "s:12OcrFramework20VideoCaptureDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC8delegateAA0cD8Delegate_pSgvs",
+                "mangledName": "$s12OcrFramework12VideoCaptureC8delegateAA0cD8Delegate_pSgvs",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC8delegateAA0cD8Delegate_pSgvM",
+                "mangledName": "$s12OcrFramework12VideoCaptureC8delegateAA0cD8Delegate_pSgvM",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "fps",
+            "printedName": "fps",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12OcrFramework12VideoCaptureC3fpsSivp",
+            "mangledName": "$s12OcrFramework12VideoCaptureC3fpsSivp",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC3fpsSivg",
+                "mangledName": "$s12OcrFramework12VideoCaptureC3fpsSivg",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC3fpsSivs",
+                "mangledName": "$s12OcrFramework12VideoCaptureC3fpsSivs",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12OcrFramework12VideoCaptureC3fpsSivM",
+                "mangledName": "$s12OcrFramework12VideoCaptureC3fpsSivM",
+                "moduleName": "OcrFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setUp",
+            "printedName": "setUp(sessionPreset:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Preset",
+                "printedName": "AVFoundation.AVCaptureSession.Preset",
+                "hasDefaultArg": true,
+                "usr": "c:@T@AVCaptureSessionPreset"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework12VideoCaptureC5setUp13sessionPreset10completionySo016AVCaptureSessionH0a_ySbctF",
+            "mangledName": "$s12OcrFramework12VideoCaptureC5setUp13sessionPreset10completionySo016AVCaptureSessionH0a_ySbctF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework12VideoCaptureC5startyyF",
+            "mangledName": "$s12OcrFramework12VideoCaptureC5startyyF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework12VideoCaptureC4stopyyF",
+            "mangledName": "$s12OcrFramework12VideoCaptureC4stopyyF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VideoCapture",
+                "printedName": "OcrFramework.VideoCapture",
+                "usr": "c:@M@OcrFramework@objc(cs)VideoCapture"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@OcrFramework@objc(cs)VideoCapture(im)init",
+            "mangledName": "$s12OcrFramework12VideoCaptureCACycfc",
+            "moduleName": "OcrFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@OcrFramework@objc(cs)VideoCapture(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s12OcrFramework12VideoCaptureC13captureOutput_03didF04fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0I10ConnectionCtF",
+            "moduleName": "OcrFramework",
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didDrop:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@OcrFramework@objc(cs)VideoCapture(im)captureOutput:didDropSampleBuffer:fromConnection:",
+            "mangledName": "$s12OcrFramework12VideoCaptureC13captureOutput_7didDrop4fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0J10ConnectionCtF",
+            "moduleName": "OcrFramework",
+            "objc_name": "captureOutput:didDropSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@OcrFramework@objc(cs)VideoCapture",
+        "mangledName": "$s12OcrFramework12VideoCaptureC",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ServeResponse",
+        "printedName": "ServeResponse",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ServeResponse",
+                "printedName": "OcrFramework.ServeResponse",
+                "usr": "s:12OcrFramework13ServeResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12OcrFramework13ServeResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s12OcrFramework13ServeResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "OcrFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:12OcrFramework13ServeResponseV",
+        "mangledName": "$s12OcrFramework13ServeResponseV",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1233,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1352,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "Array",
+      "offset": 1476,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1589,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1626,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1661,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1697,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1734,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1765,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1859,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1901,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1941,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1982,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2022,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2061,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2091,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2197,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2224,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 2590,
+      "length": 9,
+      "value": "\"Loading\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "Array",
+      "offset": 22729,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewController\/OcrController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22759,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/VideoCapture.swift",
+      "kind": "IntegerLiteral",
+      "offset": 519,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/VideoCapture.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 28,
+      "value": "\"com.tucan9389.camera-queue\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/DrawingBoundingBoxView.swift",
+      "kind": "Dictionary",
+      "offset": 286,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/DrawingBoundingBoxView.swift",
+      "kind": "Array",
+      "offset": 728,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrViewModel\/OcrViewModel.swift",
+      "kind": "Array",
+      "offset": 321,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 180,
+      "length": 24,
+      "value": "\"http:\/\/143.198.198.251\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/Constant\/Constant.swift",
+      "kind": "StringLiteral",
+      "offset": 220,
+      "length": 12,
+      "value": "\"\/card-scan\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/ServeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 15,
+      "value": "\"Response Code\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/ServeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 18,
+      "value": "\"Response Message\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/ServeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 21,
+      "value": "\"Response Process ID\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/ServeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 15,
+      "value": "\"Response Data\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/ServeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 344,
+      "length": 15,
+      "value": "\"Response Code\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/ServeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 394,
+      "length": 18,
+      "value": "\"Response Message\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/ServeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 21,
+      "value": "\"Response Process ID\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/ServeResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 503,
+      "length": 15,
+      "value": "\"Response Data\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/Measure.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 2,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/Measure.swift",
+      "kind": "StringLiteral",
+      "offset": 1591,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/Measure.swift",
+      "kind": "StringLiteral",
+      "offset": 1702,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/Measure.swift",
+      "kind": "StringLiteral",
+      "offset": 2024,
+      "length": 14,
+      "value": "\"OcrFramework.MeasureLogView\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 13,
+      "value": "\"Father Name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 8,
+      "value": "\"Gender\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 835,
+      "length": 17,
+      "value": "\"Country of Stay\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 6,
+      "value": "\"CNIC\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 12,
+      "value": "\"Issue Date\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 15,
+      "value": "\"Date of Birth\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 16,
+      "value": "\"Date of Expiry\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1116,
+      "length": 14,
+      "value": "\"Husband Name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1173,
+      "length": 6,
+      "value": "\"face\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 6,
+      "value": "\"card\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 6,
+      "value": "\"sign\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 679,
+      "length": 6,
+      "value": "\"Name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 728,
+      "length": 13,
+      "value": "\"Father Name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 784,
+      "length": 8,
+      "value": "\"Gender\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 835,
+      "length": 17,
+      "value": "\"Country of Stay\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 895,
+      "length": 6,
+      "value": "\"CNIC\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 12,
+      "value": "\"Issue Date\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 999,
+      "length": 15,
+      "value": "\"Date of Birth\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 16,
+      "value": "\"Date of Expiry\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1116,
+      "length": 14,
+      "value": "\"Husband Name\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1173,
+      "length": 6,
+      "value": "\"face\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1222,
+      "length": 6,
+      "value": "\"card\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/View\/OcrModel\/Response.swift",
+      "kind": "StringLiteral",
+      "offset": 1271,
+      "length": 6,
+      "value": "\"sign\""
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/ultils\/CustomActivityIndicator.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 23,
+      "value": "\"OcrFramework.CustomActivityIndicator\""
+    }
+  ]
+}
