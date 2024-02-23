@@ -56,3 +56,6 @@ extension OcrFramework.VideoCapture : AVFoundation.AVCaptureVideoDataOutputSampl
 public struct ServeResponse : Swift.Decodable {
   public init(from decoder: Swift.Decoder) throws
 }
+public struct Response : Swift.Decodable {
+  public init(from decoder: Swift.Decoder) throws
+}
