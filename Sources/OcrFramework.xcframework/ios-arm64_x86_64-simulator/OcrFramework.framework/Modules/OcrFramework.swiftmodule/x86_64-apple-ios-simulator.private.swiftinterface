@@ -15,7 +15,7 @@ import Vision
 import _Concurrency
 import _StringProcessing
 public protocol OCRViewControllerDelegate : AnyObject {
-  func sendDataBack(data: [OcrFramework.ServeResponse])
+  func sendDataBack(data: [OcrFramework.ServeResponse], imagePath: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class OcrController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: OcrFramework.OCRViewControllerDelegate?
@@ -41,7 +41,7 @@ extension OcrFramework.OcrController : OcrFramework.VideoCaptureDelegate {
 }
 extension OcrFramework.OcrController {
   @_Concurrency.MainActor(unsafe) public func visionRequestDidComplete(request: Vision.VNRequest, error: Swift.Error?)
-  @_Concurrency.MainActor(unsafe) public func sendBack(serverResponse: [OcrFramework.ServeResponse])
+  @_Concurrency.MainActor(unsafe) public func sendBack(serverResponse: [OcrFramework.ServeResponse], imagePath: Swift.String)
   @_Concurrency.MainActor(unsafe) public func checkForPositionNic() -> Swift.Bool
   @_Concurrency.MainActor(unsafe) public func reset()
 }

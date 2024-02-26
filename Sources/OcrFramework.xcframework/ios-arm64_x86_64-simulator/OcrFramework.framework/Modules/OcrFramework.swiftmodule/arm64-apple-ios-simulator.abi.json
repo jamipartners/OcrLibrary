@@ -43,7 +43,7 @@
           {
             "kind": "Function",
             "name": "sendDataBack",
-            "printedName": "sendDataBack(data:)",
+            "printedName": "sendDataBack(data:imagePath:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -63,11 +63,17 @@
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12OcrFramework25OCRViewControllerDelegateP12sendDataBack4dataySayAA13ServeResponseVG_tF",
-            "mangledName": "$s12OcrFramework25OCRViewControllerDelegateP12sendDataBack4dataySayAA13ServeResponseVG_tF",
+            "usr": "s:12OcrFramework25OCRViewControllerDelegateP12sendDataBack4data9imagePathySayAA13ServeResponseVG_SStF",
+            "mangledName": "$s12OcrFramework25OCRViewControllerDelegateP12sendDataBack4data9imagePathySayAA13ServeResponseVG_SStF",
             "moduleName": "OcrFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : OcrFramework.OCRViewControllerDelegate>",
             "sugared_genericSig": "<Self where Self : OcrFramework.OCRViewControllerDelegate>",
@@ -715,7 +721,7 @@
           {
             "kind": "Function",
             "name": "sendBack",
-            "printedName": "sendBack(serverResponse:)",
+            "printedName": "sendBack(serverResponse:imagePath:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -735,11 +741,17 @@
                   }
                 ],
                 "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12OcrFramework0A10ControllerC8sendBack14serverResponseySayAA05ServeG0VG_tF",
-            "mangledName": "$s12OcrFramework0A10ControllerC8sendBack14serverResponseySayAA05ServeG0VG_tF",
+            "usr": "s:12OcrFramework0A10ControllerC8sendBack14serverResponse9imagePathySayAA05ServeG0VG_SStF",
+            "mangledName": "$s12OcrFramework0A10ControllerC8sendBack14serverResponse9imagePathySayAA05ServeG0VG_SStF",
             "moduleName": "OcrFramework",
             "declAttributes": [
               "Custom",
@@ -1781,147 +1793,154 @@
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1233,
+      "offset": 1253,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1352,
+      "offset": 1372,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "Array",
-      "offset": 1476,
+      "offset": 1496,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1589,
+      "offset": 1609,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1626,
+      "offset": 1646,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1661,
+      "offset": 1681,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1697,
+      "offset": 1717,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1734,
+      "offset": 1754,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1765,
+      "offset": 1785,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1859,
+      "offset": 1879,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1901,
+      "offset": 1921,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1941,
+      "offset": 1961,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1982,
+      "offset": 2002,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2022,
+      "offset": 2042,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2061,
+      "offset": 2081,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2091,
+      "offset": 2111,
       "length": 3,
       "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 2136,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2197,
+      "offset": 2241,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2224,
+      "offset": 2268,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 2590,
+      "offset": 2634,
       "length": 9,
       "value": "\"Loading\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "Array",
-      "offset": 22744,
+      "offset": 23826,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 22774,
+      "offset": 23856,
       "length": 2,
       "value": "10"
     },
