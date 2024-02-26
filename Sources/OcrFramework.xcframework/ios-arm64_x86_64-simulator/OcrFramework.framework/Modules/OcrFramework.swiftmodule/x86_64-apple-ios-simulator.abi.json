@@ -2223,13 +2223,13 @@
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/Constant\/Constant.swift",
       "kind": "StringLiteral",
       "offset": 180,
-      "length": 24,
-      "value": "\"http:\/\/143.198.198.251\""
+      "length": 33,
+      "value": "\"https:\/\/jpbio.ublfunds.com:8443\""
     },
     {
       "filePath": "\/Users\/apple\/Documents\/OcrFramework\/OcrFramework\/Ocr\/Constant\/Constant.swift",
       "kind": "StringLiteral",
-      "offset": 220,
+      "offset": 229,
       "length": 12,
       "value": "\"\/card-scan\""
     }
