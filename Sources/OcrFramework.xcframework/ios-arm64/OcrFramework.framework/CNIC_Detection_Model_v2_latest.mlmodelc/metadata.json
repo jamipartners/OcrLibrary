@@ -106,9 +106,9 @@
     ],
     "generatedClassName" : "CNIC_Detection_Model_v2_latest",
     "userDefinedMetadata" : {
-      "IoU threshold" : "0.45",
       "stride" : "32",
       "Confidence threshold" : "0.25",
+      "IoU threshold" : "0.45",
       "task" : "detect",
       "imgsz" : "[640, 640]",
       "date" : "2024-02-13T08:38:11.784393",
