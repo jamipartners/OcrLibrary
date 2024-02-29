@@ -1,7 +1,7 @@
 framework module OcrFramework {
   umbrella header "OcrFramework.h"
-
   export *
+
   module * { export * }
 }
 

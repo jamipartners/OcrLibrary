@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		RJ2MAuJgC/eViroLtCrPEEtO630=
+		z+EEYwsH5tckam/uUdZx1650rKc=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		r6gSvnMOvcyPCVRBNdUR3wbmha8=
+		cyvkm1Od2gZZjkSivYKE4+KwzAo=
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		U0x8EM0781fCPb62BbZIXKeDlZ4=
+		ZVgM1+KwZcZnwhgaI0F7Bt1ba2c=
 		</data>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<data>
-		KDRSkBtUcmZeOGpLw/ECHWpwr5k=
+		BPB86QG4W2IAz0HGQGn0KEdf97U=
 		</data>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
 		<data>
@@ -38,23 +38,23 @@
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/coremldata.bin</key>
 		<data>
-		rjqcZXX9xpI8bmQIOvV5S2v3n/M=
+		klGmtpHLHsQ2EQjHXJ/7q20pxcc=
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/metadata.json</key>
 		<data>
-		PgmDt2kiTIlmrkAg6DLrb0ywK0Y=
+		ur8ezm70oOynr4cC3SZ2xed2mcw=
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
-		Qd5Q8H5slOEpG/ddrym9rB2tDa0=
+		24ppOAHUtsiCiVrf6FodQrXXc8M=
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		JyITp4e6Yk8tYBx0JzUxZd6vsn8=
+		y92c46EPzYK7hJlSJ11gvBHxttk=
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/model.mil</key>
 		<data>
-		u7J9He3ylrOTtv1VzWmsaMkBzkc=
+		yTDiWjVfUxaolOVB+XojlhFS+sw=
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/weights/weight.bin</key>
 		<data>
@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/OcrFramework-Swift.h</key>
 		<data>
-		XT488q4Cv2RG5lH5Kpj08yLfGVY=
+		MwNI73PDSf3VA0eNxA9R+My5k08=
 		</data>
 		<key>Headers/OcrFramework.h</key>
 		<data>
@@ -74,51 +74,51 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wy/zl8NFZW8/2S56N2HQ00/LLyo=
+		hx2NR+LCDdtQNS3vSwR13losYOc=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FjxQw4gr5vZLyx21+tYbR1+TTCw=
+		ccGPkz9Jfm7L/66Z6byHYzfuy5w=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		kJGqZfwHR3uhAkKt4aSpS4w1Gx8=
+		OIjSwvCEvOAp+kLQraqv9mQphPA=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		Z/YQb25Bwl3GO+4eBke92s55Kn8=
+		saTWU+N7fyGX63mJIocOihmbnqY=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		kJGqZfwHR3uhAkKt4aSpS4w1Gx8=
+		OIjSwvCEvOAp+kLQraqv9mQphPA=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vd7BkQ+IodxFGSBFKpWzauyxjbw=
+		Xw9SIcHGsaRblEDs6bLjPWVn88w=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FjxQw4gr5vZLyx21+tYbR1+TTCw=
+		ccGPkz9Jfm7L/66Z6byHYzfuy5w=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		mVf0BEW52Kce8Y6jsgxDCZnaLtQ=
+		ugOw8s/eqZ+lXTq1ZDqBwo/RYUw=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		ZBGi+jEMD6sO4MawybTUDK3uv9g=
+		LrnQf8oyGoyqxRB+yY+2HjJ1IjI=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		mVf0BEW52Kce8Y6jsgxDCZnaLtQ=
+		ugOw8s/eqZ+lXTq1ZDqBwo/RYUw=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4np+mUusazFE8SEQ8yVB4piTSPs=
+		hoBA6My2mfIy+g4CQ9HwcmHfPyM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		z3zgwJ84OLB0MoqWDh4zHTKR86Y=
+		eU1WfiWpoHWxDDbLOfpQQZhfoTY=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -127,14 +127,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8hzNQtHl0Iq/XBdPoMg31G1CwL1lHMExhQpngPgKV8o=
+			e/sXsILOg+MGpNRXQc4hkDiktVD2c5ZKueG7u3rfpN0=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOmrbyEILYHXDMeAOH9FK9GxNMd53+mIQ7DWaqLqiKM=
+			mAzmaY1qErPRqwX3Znn1+SUDNOFk13UliU9n+UUWllk=
 			</data>
 		</dict>
 		<key>Base.lproj/LaunchScreen.storyboardc/Info.plist</key>
@@ -148,14 +148,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cWq7q+iQcmpSoaFGecnyPdKFEPFwRD3slgUmxFADkVs=
+			VPNjf2cf66XxnoLsT0p/tEi7PPwPsYDwiapXH8jwU+I=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/BYZ-38-t0r-view-8bC-Xf-vdC.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Lm+1KfNUu9edMqbX5iPnI0QmAb5MWeto34dFrxzoBNw=
+			lVeF+RVHncYyhhGnNKQ4SrOGyz0Hvr8aMnaCaPsuZ9A=
 			</data>
 		</dict>
 		<key>Base.lproj/Main.storyboardc/Info.plist</key>
@@ -183,35 +183,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pBApc+u/At4nH62PGNpnmZi2JbQPOBPPFh41PTrJ8a4=
+			Osvzu1TqVJF9x5SxqrrEml2aG+6SORj2eBypIQD4KgY=
 			</data>
 		</dict>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EOmV1rj+yxcih3dkcWSgTJDQgvTpaV6pr1xQ8kAtIrQ=
+			GGH608t4mScL3R8YYWNyv99VSUFPc4McFA/Eq701yDI=
 			</data>
 		</dict>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/analytics/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ckkWuJLkgnun1wb+BBf9bm9DOKMzNTohmwtdoS9c57w=
+			WoKBBJsqZaO+VBz9n5SehLj+HFJRzpDkbaFib+1U5Yo=
 			</data>
 		</dict>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/coremldata.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qN2xn1JlZHzd0QbtViCWUyoZ3Agl0IOmQfnEAbkzUEM=
+			IjXBSU9nD+WSOS5DfPj52jcOwEEoTByOTKiCEh6v5p4=
 			</data>
 		</dict>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/model.mil</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L4qzBFc6OPK0CmawTDpxmm2pi7kao7eXS5s/g3ZsMks=
+			3dcvB/UGtBRhlRZO2vZyY0TMBj0F0Lh4SuHHoI0PB6U=
 			</data>
 		</dict>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/weights/weight.bin</key>
@@ -232,7 +232,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			0aTs2UYGL0pm/4KFa6pIyMbWthiAyD8gsmO4P1uffCg=
+			1De/zLht+lNFiCDNzmqvo3UQymHqVSRgxxr9RDjpe4E=
 			</data>
 		</dict>
 		<key>Headers/OcrFramework.h</key>
@@ -246,77 +246,77 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LDHHK8R4cCkmVtTXSIUw/JJV2eDXgqxf+e53GUALaPg=
+			H2/2wIV7DCMKbw4bNIP2CXq18fnsgYbdr9XW2XYtv2o=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a7N3NWZtIjdCxCeUp+lfCTMZpbzX8moIXTTDzWMgWgE=
+			F3t8wk28bUj4IfBiqmS1zmF32flf66I/Nfn6LSmmcFQ=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RGPgWgERRY6RmkqRr76LYnbE09TZ/ZQ/P3CIjfIllZI=
+			VsnvKV4JRLzY8p2qWP5zeUDw71aVbCGJZoqyjfmE+xk=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			a7N3NWZtIjdCxCeUp+lfCTMZpbzX8moIXTTDzWMgWgE=
+			F3t8wk28bUj4IfBiqmS1zmF32flf66I/Nfn6LSmmcFQ=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DqlSwZ1TzT/ZUETMOOULJdwgPXZ0mR4OcNEwvAWCVb4=
+			qpTrOcX4XwCIuzvdCQIIkzp/cEHKswbZGU6p2zTZWQA=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LDHHK8R4cCkmVtTXSIUw/JJV2eDXgqxf+e53GUALaPg=
+			H2/2wIV7DCMKbw4bNIP2CXq18fnsgYbdr9XW2XYtv2o=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s60dADCwHuN/AKOrihBNVFSlzlOFw4Ful23Yr/cr5S8=
+			giljia8Fr8luGe+lZcTqagx7uhlCbcpqtnjjr44c1Tc=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JChkPhz5+1fySznj7q/Rl9RSH6Qpd5+OmOMkw2JCIgc=
+			mPxWpwAoeSLDd+4gYSCZpEPfskRHIbEyUoyQYyU3aJs=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s60dADCwHuN/AKOrihBNVFSlzlOFw4Ful23Yr/cr5S8=
+			giljia8Fr8luGe+lZcTqagx7uhlCbcpqtnjjr44c1Tc=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			av1t8FsENzW2g5Iij3NVRcnN6V/hRt5I7c8/qBQEXVk=
+			e8N5ES6+jf+fIFZ9KYi/5VRqbL0xKDzaPP2Dy69zOwU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5/3j6bNbbmuhwOKDKtHjNi777ogMVouaw8Z7X5DQ/ZA=
+			Me7v1abMxe8dpuh9kvZA3ZMRpQDD1D6XMI5ydTj+tSU=
 			</data>
 		</dict>
 	</dict>

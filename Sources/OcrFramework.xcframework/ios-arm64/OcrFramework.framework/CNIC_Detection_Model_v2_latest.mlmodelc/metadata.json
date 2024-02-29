@@ -58,6 +58,7 @@
     "availability" : {
       "macOS" : "11.0",
       "tvOS" : "14.0",
+      "visionOS" : "1.0",
       "watchOS" : "7.0",
       "iOS" : "14.0",
       "macCatalyst" : "14.0"
@@ -110,8 +111,8 @@
       "Confidence threshold" : "0.25",
       "IoU threshold" : "0.45",
       "task" : "detect",
-      "date" : "2024-02-13T08:38:11.784393",
       "imgsz" : "[640, 640]",
+      "date" : "2024-02-13T08:38:11.784393",
       "batch" : "1",
       "names" : "{0: 'CNIC'}"
     },
