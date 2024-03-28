@@ -38,7 +38,7 @@
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/coremldata.bin</key>
 		<data>
-		P7Z7K2zrL/rY8+xSIPoOdh4mxx8=
+		WL/0rDv66UbsA+yajb7MuBm5cBU=
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/metadata.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		y92c46EPzYK7hJlSJ11gvBHxttk=
+		JyITp4e6Yk8tYBx0JzUxZd6vsn8=
 		</data>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/model.mil</key>
 		<data>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OvuyJo0dP2nUfls2krr4bC9/yNFJJAXjlqDb8/Y8WiU=
+			5UuMNs+orrd4p7zT7Tk4gUyHkGSKSC9GGQ9xNXetrzo=
 			</data>
 		</dict>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/metadata.json</key>
@@ -204,7 +204,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IjXBSU9nD+WSOS5DfPj52jcOwEEoTByOTKiCEh6v5p4=
+			qN2xn1JlZHzd0QbtViCWUyoZ3Agl0IOmQfnEAbkzUEM=
 			</data>
 		</dict>
 		<key>CNIC_Detection_Model_v2_latest.mlmodelc/model0/model.mil</key>
