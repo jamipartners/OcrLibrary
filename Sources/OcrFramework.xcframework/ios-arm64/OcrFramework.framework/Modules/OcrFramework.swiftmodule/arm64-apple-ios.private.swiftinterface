@@ -18,7 +18,7 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public protocol OCRViewControllerDelegate : AnyObject {
-  func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String)
+  func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String, frontSide: Swift.String, backSide: Swift.String, cardType: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class OcrController : UIKit.UIViewController {
   @_Concurrency.MainActor(unsafe) weak public var delegate: (any OcrFramework.OCRViewControllerDelegate)?
@@ -44,9 +44,10 @@ extension OcrFramework.OcrController : OcrFramework.VideoCaptureDelegate {
 }
 extension OcrFramework.OcrController {
   @_Concurrency.MainActor(unsafe) public func visionRequestDidComplete(request: Vision.VNRequest, error: (any Swift.Error)?)
-  @_Concurrency.MainActor(unsafe) public func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String, frontSide: Swift.String, backSide: Swift.String, cardType: Swift.String)
   @_Concurrency.MainActor(unsafe) public func checkForPositionNic() -> Swift.Bool
   @_Concurrency.MainActor(unsafe) public func reset()
+  @_Concurrency.MainActor(unsafe) public func restartCamera()
 }
 public struct Response : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws

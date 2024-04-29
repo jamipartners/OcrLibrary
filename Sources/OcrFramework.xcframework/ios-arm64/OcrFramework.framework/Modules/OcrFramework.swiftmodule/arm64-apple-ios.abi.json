@@ -43,7 +43,7 @@
           {
             "kind": "Function",
             "name": "sendBack",
-            "printedName": "sendBack(name:fatherName:gender:countryOfStay:cnic:issueDate:dateOfBirth:dateOfExpiry:husbandName:face:card:sign:)",
+            "printedName": "sendBack(name:fatherName:gender:countryOfStay:cnic:issueDate:dateOfBirth:dateOfExpiry:husbandName:face:card:sign:frontSide:backSide:cardType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -121,11 +121,29 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12OcrFramework25OCRViewControllerDelegateP8sendBack4name10fatherName6gender13countryOfStay4cnic9issueDate04dateM5Birth0rM6Expiry07husbandJ04face4card4signySS_S11StF",
-            "mangledName": "$s12OcrFramework25OCRViewControllerDelegateP8sendBack4name10fatherName6gender13countryOfStay4cnic9issueDate04dateM5Birth0rM6Expiry07husbandJ04face4card4signySS_S11StF",
+            "usr": "s:12OcrFramework25OCRViewControllerDelegateP8sendBack4name10fatherName6gender13countryOfStay4cnic9issueDate04dateM5Birth0rM6Expiry07husbandJ04face4card4sign9frontSide04backZ00W4TypeySS_S14StF",
+            "mangledName": "$s12OcrFramework25OCRViewControllerDelegateP8sendBack4name10fatherName6gender13countryOfStay4cnic9issueDate04dateM5Birth0rM6Expiry07husbandJ04face4card4sign9frontSide04backZ00W4TypeySS_S14StF",
             "moduleName": "OcrFramework",
             "genericSig": "<τ_0_0 where τ_0_0 : OcrFramework.OCRViewControllerDelegate>",
             "sugared_genericSig": "<Self where Self : OcrFramework.OCRViewControllerDelegate>",
@@ -773,7 +791,7 @@
           {
             "kind": "Function",
             "name": "sendBack",
-            "printedName": "sendBack(name:fatherName:gender:countryOfStay:cnic:issueDate:dateOfBirth:dateOfExpiry:husbandName:face:card:sign:)",
+            "printedName": "sendBack(name:fatherName:gender:countryOfStay:cnic:issueDate:dateOfBirth:dateOfExpiry:husbandName:face:card:sign:frontSide:backSide:cardType:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -851,11 +869,29 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:12OcrFramework0A10ControllerC8sendBack4name10fatherName6gender13countryOfStay4cnic9issueDate04dateK5Birth0pK6Expiry07husbandH04face4card4signySS_S11StF",
-            "mangledName": "$s12OcrFramework0A10ControllerC8sendBack4name10fatherName6gender13countryOfStay4cnic9issueDate04dateK5Birth0pK6Expiry07husbandH04face4card4signySS_S11StF",
+            "usr": "s:12OcrFramework0A10ControllerC8sendBack4name10fatherName6gender13countryOfStay4cnic9issueDate04dateK5Birth0pK6Expiry07husbandH04face4card4sign9frontSide04backX00U4TypeySS_S14StF",
+            "mangledName": "$s12OcrFramework0A10ControllerC8sendBack4name10fatherName6gender13countryOfStay4cnic9issueDate04dateK5Birth0pK6Expiry07husbandH04face4card4sign9frontSide04backX00U4TypeySS_S14StF",
             "moduleName": "OcrFramework",
             "declAttributes": [
               "Custom",
@@ -901,6 +937,28 @@
             "declKind": "Func",
             "usr": "s:12OcrFramework0A10ControllerC5resetyyF",
             "mangledName": "$s12OcrFramework0A10ControllerC5resetyyF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "restartCamera",
+            "printedName": "restartCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework0A10ControllerC13restartCamerayyF",
+            "mangledName": "$s12OcrFramework0A10ControllerC13restartCamerayyF",
             "moduleName": "OcrFramework",
             "declAttributes": [
               "Custom",
@@ -1932,854 +1990,1106 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1419,
+      "offset": 1602,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1538,
+      "offset": 1721,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "Array",
-      "offset": 1662,
+      "offset": 1845,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1775,
+      "offset": 1958,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1812,
+      "offset": 1995,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1847,
+      "offset": 2030,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1883,
+      "offset": 2066,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1920,
+      "offset": 2103,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 1951,
+      "offset": 2134,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2045,
+      "offset": 2228,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2087,
+      "offset": 2270,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2127,
+      "offset": 2310,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2168,
+      "offset": 2351,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2208,
+      "offset": 2391,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2247,
+      "offset": 2430,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 2277,
+      "offset": 2460,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 2302,
+      "offset": 2491,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2407,
+      "offset": 2625,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2434,
+      "offset": 2652,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2678,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 2800,
+      "offset": 2707,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 3235,
       "length": 9,
       "value": "\"Loading\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 3420,
+      "offset": 3855,
       "length": 11,
       "value": "\"backArrow\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3524,
+      "offset": 3959,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3531,
+      "offset": 3966,
       "length": 2,
       "value": "60"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3542,
+      "offset": 3977,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 3554,
+      "offset": 3989,
       "length": 2,
       "value": "40"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3603,
+      "offset": 4038,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 3889,
+      "offset": 4324,
       "length": 11,
       "value": "\"Cancelled\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 4054,
+      "offset": 4489,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4168,
+      "offset": 4603,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4174,
+      "offset": 4609,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 4696,
+      "offset": 5131,
       "length": 3,
       "value": "0.2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4816,
+      "offset": 5251,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5354,
+      "offset": 5789,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 5423,
+      "offset": 5858,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 5473,
+      "offset": 5908,
       "length": 3,
       "value": "1.5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 5685,
+      "offset": 6120,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 7696,
+      "offset": 7271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 7839,
+      "offset": 7414,
       "length": 4,
       "value": "0.14"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 7959,
+      "offset": 7534,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8052,
+      "offset": 7627,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 8244,
-      "length": 72,
-      "value": "\"Place the front side of your smart CNIC\n card within the white square\""
+      "offset": 7819,
+      "length": 66,
+      "value": "\"Place the front side of your CNIC\n card within the white square\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8357,
+      "offset": 7926,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 8510,
+      "offset": 8079,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8778,
+      "offset": 8347,
       "length": 2,
       "value": "20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8877,
+      "offset": 8446,
       "length": 3,
       "value": "-20"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 8995,
+      "offset": 8564,
       "length": 4,
       "value": "0.12"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 9588,
+      "offset": 9161,
       "length": 24,
       "value": "\"fail to load the model\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 9944,
+      "offset": 9517,
       "length": 29,
       "value": "\"fail to create vision model\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 10152,
+      "offset": 9726,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 11272,
+      "offset": 10854,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 12117,
+      "offset": 11699,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 12172,
+      "offset": 11754,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12295,
+      "offset": 11877,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12536,
+      "offset": 12118,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 12543,
+      "offset": 12125,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12682,
+      "offset": 12264,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12688,
+      "offset": 12270,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 12870,
+      "offset": 12452,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 12907,
+      "offset": 12489,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 13199,
+      "offset": 12781,
       "length": 52,
       "value": "\"Failed to obtain the final image from the context.\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 13848,
+      "offset": 13430,
       "length": 30,
       "value": "\"Error retrieving placeholder\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 13886,
+      "offset": 13468,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 14186,
+      "offset": 13768,
       "length": 68,
       "value": "\"Error saving image to photo library: \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 14253,
+      "offset": 13835,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 14301,
+      "offset": 13883,
       "length": 31,
       "value": "\"Image saved to photo library.\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 14952,
+      "offset": 14099,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14153,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 15296,
+      "offset": 14485,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 15377,
-      "length": 16,
-      "value": "\"new_cnic_front\""
+      "offset": 14564,
+      "length": 15,
+      "value": "\"new_cnic_back\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 15406,
+      "offset": 14833,
       "length": 3,
       "value": "\"0\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 15422,
+      "offset": 14849,
       "length": 8,
       "value": "\"google\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 15443,
+      "offset": 14870,
       "length": 13,
       "value": "\"com.jp.demo\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 15700,
+      "offset": 15129,
       "length": 38,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 15737,
+      "offset": 15166,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 15915,
+      "offset": 15344,
       "length": 29,
       "value": "\"Local identifier not found.\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 15545,
+      "length": 16,
+      "value": "\"new_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 15617,
+      "length": 16,
+      "value": "\"old_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 15920,
+      "length": 15,
+      "value": "\"new_cnic_back\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 16711,
+      "length": 7,
+      "value": "\"smart\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 17463,
+      "length": 16,
+      "value": "\"new_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 17535,
+      "length": 16,
+      "value": "\"old_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17575,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 17675,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 16178,
+      "offset": 17881,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 16355,
+      "offset": 18006,
+      "length": 16,
+      "value": "\"new_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18078,
+      "length": 16,
+      "value": "\"old_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18118,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18167,
+      "length": 27,
+      "value": "\"Finding Back CNIC Card...\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18312,
+      "length": 15,
+      "value": "\"new_cnic_back\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18383,
+      "length": 15,
+      "value": "\"old_cnic_back\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 18422,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18495,
+      "length": 16,
+      "value": "\"new_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18567,
+      "length": 15,
+      "value": "\"old_cnic_back\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18631,
+      "length": 26,
+      "value": "\"Finding New CNIC Card...\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18729,
+      "length": 16,
+      "value": "\"old_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18801,
+      "length": 15,
+      "value": "\"new_cnic_back\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 18865,
+      "length": 26,
+      "value": "\"Finding Old CNIC Card...\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19135,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 19279,
+      "length": 15,
+      "value": "\"new_cnic_back\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 19350,
+      "length": 15,
+      "value": "\"old_cnic_back\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 19439,
+      "length": 28,
+      "value": "\"Finding Front CNIC Card...\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 19862,
       "length": 14,
       "value": "\"endInference\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18089,
+      "offset": 20279,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 18166,
+      "offset": 20356,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
-      "kind": "StringLiteral",
-      "offset": 19280,
-      "length": 6,
-      "value": "\"CNIC\""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19352,
-      "length": 1,
-      "value": "1"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
-      "kind": "IntegerLiteral",
-      "offset": 19422,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19575,
+      "offset": 20684,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 19728,
+      "offset": 20837,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20366,
+      "offset": 21596,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 20485,
+      "offset": 21715,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 21470,
+      "offset": 22002,
       "length": 27,
       "value": "\"Place CNIC inside the box\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 21603,
+      "offset": 22135,
       "length": 4,
       "value": "0.05"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 21709,
+      "offset": 22241,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 21762,
+      "offset": 22294,
       "length": 4,
       "value": "0.25"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 21795,
+      "offset": 22327,
       "length": 4,
       "value": "0.30"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 21851,
+      "offset": 22383,
       "length": 4,
       "value": "0.75"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 21887,
+      "offset": 22419,
       "length": 4,
       "value": "0.70"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 21923,
+      "offset": 22455,
       "length": 13,
       "value": "\"Please hold\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 21973,
+      "offset": 22505,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 22286,
+      "offset": 22818,
       "length": 27,
       "value": "\"Place CNIC inside the box\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 22370,
+      "offset": 22902,
       "length": 4,
       "value": "0.32"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 22406,
+      "offset": 22938,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 22441,
+      "offset": 22973,
       "length": 27,
       "value": "\"Please bring phone closer\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 22528,
+      "offset": 23060,
       "length": 4,
       "value": "0.32"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 22564,
+      "offset": 23096,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 22599,
+      "offset": 23131,
       "length": 27,
       "value": "\"Please bring phone closer\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 22683,
+      "offset": 23215,
       "length": 3,
       "value": "0.7"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 22715,
+      "offset": 23247,
       "length": 4,
       "value": "0.32"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 22822,
+      "offset": 23354,
       "length": 27,
       "value": "\"Please bring phone closer\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 22931,
+      "offset": 23463,
       "length": 4,
       "value": "0.09"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 22967,
+      "offset": 23499,
       "length": 27,
       "value": "\"Please bring phone closer\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 23074,
+      "offset": 23606,
       "length": 4,
       "value": "0.09"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 23110,
+      "offset": 23642,
       "length": 27,
       "value": "\"Please bring phone closer\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 23292,
+      "offset": 23824,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23431,
+      "offset": 23963,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "FloatLiteral",
-      "offset": 23728,
+      "offset": 24260,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 23772,
+      "offset": 24304,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23819,
+      "offset": 24351,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 23937,
+      "offset": 24469,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24553,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 24579,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "Array",
-      "offset": 25621,
+      "offset": 24685,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25651,
+      "offset": 24715,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25887,
+      "offset": 24951,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 25920,
+      "offset": 24984,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
-      "kind": "BooleanLiteral",
-      "offset": 26316,
-      "length": 4,
-      "value": "true"
+      "kind": "StringLiteral",
+      "offset": 25453,
+      "length": 16,
+      "value": "\"new_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 25603,
+      "length": 65,
+      "value": "\"Place the back side of your CNIC\n card within the white square\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 25751,
+      "length": 16,
+      "value": "\"old_cnic_front\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 25901,
+      "length": 65,
+      "value": "\"Place the back side of your CNIC\n card within the white square\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 26223,
+      "length": 15,
+      "value": "\"old_cnic_back\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 26979,
+      "length": 6,
+      "value": "\"urdu\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "StringLiteral",
+      "offset": 27070,
+      "length": 20,
+      "value": "\"CNIC did not match\""
+    },
+    {
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27101,
+      "length": 1,
+      "value": "2"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "BooleanLiteral",
-      "offset": 27038,
+      "offset": 27231,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 27135,
+      "offset": 27328,
       "length": 15,
       "value": "\"Network Error\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 27161,
+      "offset": 27354,
       "length": 1,
       "value": "2"
     },
@@ -3043,9 +3353,9 @@
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/AppDelegate.swift",
+      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/Ocr\/OcrAppDelegate.swift",
       "kind": "BooleanLiteral",
-      "offset": 501,
+      "offset": 411,
       "length": 4,
       "value": "true"
     },
@@ -3911,142 +4221,142 @@
       "value": "\"\/card-scan\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "Array",
-      "offset": 717,
+      "offset": 713,
       "length": 48,
       "value": "[\"image\", \"iouThreshold\", \"confidenceThreshold\"]"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 882,
+      "offset": 878,
       "length": 7,
       "value": "\"image\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 984,
+      "offset": 980,
       "length": 14,
       "value": "\"iouThreshold\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 1095,
+      "offset": 1091,
       "length": 21,
       "value": "\"confidenceThreshold\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 1616,
+      "offset": 1612,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 1633,
+      "offset": 1629,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 1965,
+      "offset": 1961,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 1982,
+      "offset": 1978,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 2258,
+      "offset": 2254,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 2275,
+      "offset": 2271,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 2476,
+      "offset": 2472,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 2493,
+      "offset": 2489,
       "length": 3,
       "value": "640"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 3014,
+      "offset": 3008,
       "length": 12,
       "value": "\"confidence\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 3522,
+      "offset": 3516,
       "length": 13,
       "value": "\"coordinates\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 4200,
+      "offset": 4194,
       "length": 12,
       "value": "\"confidence\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 4255,
+      "offset": 4249,
       "length": 13,
       "value": "\"coordinates\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 4772,
-      "length": 32,
-      "value": "\"CNIC_Detection_Model_v2_latest\""
+      "offset": 4764,
+      "length": 30,
+      "value": "\"Both_CNIC_Detection_Model_v4\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "StringLiteral",
-      "offset": 4820,
+      "offset": 4810,
       "length": 10,
       "value": "\"mlmodelc\""
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "Array",
-      "offset": 13806,
+      "offset": 13724,
       "length": 2,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/CNIC_Detection_Model_v2_latest\/CNIC_Detection_Model_v2_latest.swift",
+      "filePath": "\/Users\/mustafa\/Library\/Developer\/Xcode\/DerivedData\/OcrFramework-blriyjswgyxwtqhhwshuzeflhdlu\/Build\/Intermediates.noindex\/ArchiveIntermediates\/OcrFramework\/IntermediateBuildFilesPath\/OcrFramework.build\/Release-iphoneos\/OcrFramework.build\/DerivedSources\/CoreMLGenerated\/Both_CNIC_Detection_Model_v4\/Both_CNIC_Detection_Model_v4.swift",
       "kind": "IntegerLiteral",
-      "offset": 13872,
+      "offset": 13790,
       "length": 1,
       "value": "0"
     },
