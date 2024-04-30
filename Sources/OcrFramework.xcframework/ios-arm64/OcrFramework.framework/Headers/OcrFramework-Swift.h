@@ -351,6 +351,7 @@ SWIFT_CLASS("_TtC12OcrFramework14OcrAppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIButton;
 @class UIBarButtonItem;
 @class NSString;
 @class NSBundle;
@@ -359,7 +360,9 @@ SWIFT_CLASS("_TtC12OcrFramework13OcrController")
 @interface OcrController : UIViewController
 @property (nonatomic, weak) IBOutlet UIView * _Null_unspecified videoPreview;
 @property (nonatomic, weak) IBOutlet DrawingBoundingBoxView * _Null_unspecified boxesView;
+@property (nonatomic, weak) IBOutlet UIView * _Null_unspecified popUpDialog;
 - (void)viewDidLoad;
+- (IBAction)pressOk:(UIButton * _Nonnull)sender;
 - (void)backWithSender:(UIBarButtonItem * _Nonnull)sender;
 - (void)didReceiveMemoryWarning;
 - (void)viewWillAppear:(BOOL)animated;
@@ -373,7 +376,7 @@ SWIFT_CLASS("_TtC12OcrFramework13OcrController")
 
 
 @class UILabel;
-@class UIButton;
+@class UIImageView;
 
 SWIFT_CLASS("_TtC12OcrFramework11OcrResultVC")
 @interface OcrResultVC : UIViewController
@@ -385,6 +388,7 @@ SWIFT_CLASS("_TtC12OcrFramework11OcrResultVC")
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified issueDate;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateOfBirth;
 @property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified dateOfExpiry;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified nic_image;
 - (void)viewDidLoad;
 - (IBAction)openOcr:(UIButton * _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
