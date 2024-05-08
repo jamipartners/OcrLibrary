@@ -38,7 +38,7 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/coremldata.bin</key>
 		<data>
-		/jxNuK7FnOxiZY6XWTabHZbwxs0=
+		Bu1hkm2Ycz3KmzcQAqHIfFRN1O8=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		6QgUJdvAZtjimhmFmkQ5iOehbdg=
+		6fIe9AcyHOQ90CX0hsDcK/b08jI=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/model.mil</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ddvkpQkrzzWDOj8EzqZt7vZrtZo=
+		y5Rpq3SqbZA0Fe5ns+v2ZmGzrAY=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ddvkpQkrzzWDOj8EzqZt7vZrtZo=
+		y5Rpq3SqbZA0Fe5ns+v2ZmGzrAY=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fgYS9nSLP+RqZEJpcF2UtPveuczacll3+Q46aiVCUVk=
+			6xRXaarpdDPpcocauz2LRRbfPxsVr1Y2y7xMuiqqjyg=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
@@ -204,7 +204,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			onyiFviN+lcNRTXJ/JIA3tOGPsSi6IFF6MNt7o+ewEc=
+			Q7ODtSgJBFS54qx0jV7nm5XRsXHrtCctfE+khIviTcE=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/model.mil</key>
@@ -246,7 +246,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZfH/4c20FVIsRK+FTb47uSDd6wNKsF8ccWlB4/7EUB0=
+			Pu+ryVJ7fGpsYwspTuKUfgdeRRvTzHi8i/nCGsIrKGQ=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZfH/4c20FVIsRK+FTb47uSDd6wNKsF8ccWlB4/7EUB0=
+			Pu+ryVJ7fGpsYwspTuKUfgdeRRvTzHi8i/nCGsIrKGQ=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
