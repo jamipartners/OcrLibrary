@@ -38,11 +38,11 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/coremldata.bin</key>
 		<data>
-		rgEEOtP6DcmGRFhl3kAhK0DIT5w=
+		Bu1hkm2Ycz3KmzcQAqHIfFRN1O8=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<data>
-		vobad0r4PfI4sYp3EsRyml0rn28=
+		HDpKzqQPNNkzqUZpYH7Qy0h1mxE=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -183,14 +183,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8leiaNZFi8rH2u2ZdiimsCxg7WMPn8xP/SOPsiVLHzg=
+			6xRXaarpdDPpcocauz2LRRbfPxsVr1Y2y7xMuiqqjyg=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L+hzdDhFMfeYXj7IulENhBI7zFBdZsspRWOAp9jc/Fw=
+			CzSVHK0NWHTpMDuZcRBXpLGp40LXa9ElQBTq4vCpu54=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/analytics/coremldata.bin</key>

@@ -115,8 +115,8 @@
       "IoU threshold" : "0.45",
       "docs" : "https:\/\/docs.ultralytics.com",
       "task" : "detect",
-      "date" : "2024-04-26T10:14:19.308591",
       "imgsz" : "[640, 640]",
+      "date" : "2024-04-26T10:14:19.308591",
       "batch" : "1",
       "names" : "{0: 'new_cnic_back', 1: 'new_cnic_front', 2: 'old_cnic_back', 3: 'old_cnic_front'}"
     },
