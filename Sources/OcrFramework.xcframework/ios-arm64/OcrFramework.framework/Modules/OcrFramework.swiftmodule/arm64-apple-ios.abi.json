@@ -2606,42 +2606,21 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewModel\/OcrViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
-      "length": 12,
-      "value": "\"Hface   : \""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewModel\/OcrViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2262,
-      "length": 11,
-      "value": "\"card   : \""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewModel\/OcrViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2354,
-      "length": 11,
-      "value": "\"sign   : \""
-    },
-    {
-      "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewModel\/OcrViewModel.swift",
-      "kind": "StringLiteral",
-      "offset": 2884,
+      "offset": 2835,
       "length": 17,
       "value": "\"Error: \""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewModel\/OcrViewModel.swift",
       "kind": "StringLiteral",
-      "offset": 2900,
+      "offset": 2851,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewModel\/OcrViewModel.swift",
       "kind": "Array",
-      "offset": 2945,
+      "offset": 2896,
       "length": 2,
       "value": "[]"
     },
