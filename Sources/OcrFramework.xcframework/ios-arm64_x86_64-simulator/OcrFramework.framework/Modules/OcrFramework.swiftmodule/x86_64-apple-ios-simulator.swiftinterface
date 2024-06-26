@@ -60,6 +60,9 @@ public protocol OCRViewControllerDelegate : AnyObject {
 extension OcrFramework.OcrController : OcrFramework.VideoCaptureDelegate {
   @_Concurrency.MainActor(unsafe) public func videoCapture(_ capture: OcrFramework.VideoCapture, didCaptureVideoFrame pixelBuffer: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime)
   @_Concurrency.MainActor(unsafe) public func image(from pixelBuffer: CoreVideo.CVPixelBuffer) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) public func saveImage(image: UIKit.UIImage, filename: Swift.String)
+  @_Concurrency.MainActor(unsafe) public func loadImage(filename: Swift.String) -> UIKit.UIImage?
+  @_Concurrency.MainActor(unsafe) public func getDocumentsDirectory() -> Foundation.URL
 }
 extension OcrFramework.OcrController {
   @_Concurrency.MainActor(unsafe) public func visionRequestDidComplete(request: Vision.VNRequest, error: (any Swift.Error)?)

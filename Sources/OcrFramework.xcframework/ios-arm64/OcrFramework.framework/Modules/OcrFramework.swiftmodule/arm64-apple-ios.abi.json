@@ -1590,6 +1590,100 @@
           },
           {
             "kind": "Function",
+            "name": "saveImage",
+            "printedName": "saveImage(image:filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework0A10ControllerC9saveImage5image8filenameySo7UIImageC_SStF",
+            "mangledName": "$s12OcrFramework0A10ControllerC9saveImage5image8filenameySo7UIImageC_SStF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadImage",
+            "printedName": "loadImage(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework0A10ControllerC9loadImage8filenameSo7UIImageCSgSS_tF",
+            "mangledName": "$s12OcrFramework0A10ControllerC9loadImage8filenameSo7UIImageCSgSS_tF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getDocumentsDirectory",
+            "printedName": "getDocumentsDirectory()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework0A10ControllerC21getDocumentsDirectory10Foundation3URLVyF",
+            "mangledName": "$s12OcrFramework0A10ControllerC21getDocumentsDirectory10Foundation3URLVyF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "visionRequestDidComplete",
             "printedName": "visionRequestDidComplete(request:error:)",
             "children": [
@@ -2424,14 +2518,14 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewController\/OcrController.swift",
       "kind": "Array",
-      "offset": 24386,
+      "offset": 24715,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24416,
+      "offset": 24745,
       "length": 2,
       "value": "10"
     },

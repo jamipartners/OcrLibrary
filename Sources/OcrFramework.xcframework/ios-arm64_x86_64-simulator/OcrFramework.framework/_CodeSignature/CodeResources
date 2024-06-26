@@ -38,7 +38,7 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/coremldata.bin</key>
 		<data>
-		brHWSir/ykrt2ql58vuoBvI67FY=
+		/VzlWVh3nhset9+aDpsamxSnax8=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		2K5esf28Y8gFIfW+z5SQtYPtReo=
+		pW8+H1ZZ2bTVaSiusZRTwXNqS6U=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		dBFIP1o3Rcc7Fgwtl5Pn1TbqvwU=
+		m5DiQoPdrY+ipsO6U6uTYE0Onvg=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,19 +90,19 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		dBFIP1o3Rcc7Fgwtl5Pn1TbqvwU=
+		m5DiQoPdrY+ipsO6U6uTYE0Onvg=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nRvx94VYHfbS2LuZnTVgfICWOYM=
+		wDpbUzRrsx+oKVNbd8CYwH4brqI=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		2K5esf28Y8gFIfW+z5SQtYPtReo=
+		pW8+H1ZZ2bTVaSiusZRTwXNqS6U=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		AzgGARaLHGMniV1ofhFToXgwoAE=
+		bdn5oh8p4W6dM9t/vEbe8dJ9lbA=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		AzgGARaLHGMniV1ofhFToXgwoAE=
+		bdn5oh8p4W6dM9t/vEbe8dJ9lbA=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		KDYg0k+ZS611Nfo4hlvlI/h7Lvo=
+		HO1h0igGu3B/NmpOBYsXVPxBGwg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4wK5FWCE9f/RsX1LrXW/gFaY5k98DPf+ADyAJx2SLQE=
+			SmLfcvbcDXMF9lTicQIVFHKGpARTSkYQgbzPeI+0JQY=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
@@ -246,14 +246,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qg9FF9mZyns9OtxzUoRMZIjigTRP5HJLsMUh5MSc5JI=
+			eHsByb1nkh1gm5knC8zwLjjz5EMTR+6UfpQ+TIbWRCM=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xQREt74skNkLm2PgB6bNxamJcWWP7fIxcpjj3xcJWy0=
+			mDtnJV5L9dYQ58g61w3DbckJ3WfDR8Ns54Ar6TPlebo=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -267,28 +267,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xQREt74skNkLm2PgB6bNxamJcWWP7fIxcpjj3xcJWy0=
+			mDtnJV5L9dYQ58g61w3DbckJ3WfDR8Ns54Ar6TPlebo=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3QSu70usDVGnifJtAfrD5jorh5eEcc/xRrg660LUJzY=
+			q9++TFM3oabwmiyF2Ifph4L3nkx9Q5DQX1hGShoxTDc=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qg9FF9mZyns9OtxzUoRMZIjigTRP5HJLsMUh5MSc5JI=
+			eHsByb1nkh1gm5knC8zwLjjz5EMTR+6UfpQ+TIbWRCM=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pn5sCTh4iTIEDlHIJzYe2gYgd62kmNSJjYYkzsUfj2o=
+			IH9NfXBvsL8/1hb2tbOlYW8qcLRgFuaDVnslhMsrKL8=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -302,14 +302,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pn5sCTh4iTIEDlHIJzYe2gYgd62kmNSJjYYkzsUfj2o=
+			IH9NfXBvsL8/1hb2tbOlYW8qcLRgFuaDVnslhMsrKL8=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			K8N8GGDcqqjkKJBcf4sh+Wl74Um+Cg6wHwlrEQ+8xQQ=
+			xO5HvnEh4/hZALfqEIyvAY9TsvYnJi//ozoFk+j5hxw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
