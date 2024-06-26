@@ -38,11 +38,11 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/coremldata.bin</key>
 		<data>
-		/VzlWVh3nhset9+aDpsamxSnax8=
+		dYsMpsB/aR1IxM9dc3c2jPASQJA=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<data>
-		HDpKzqQPNNkzqUZpYH7Qy0h1mxE=
+		LCpgKHFY5qE1ION3oUETvHRIO44=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -78,11 +78,11 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		pW8+H1ZZ2bTVaSiusZRTwXNqS6U=
+		CyyWpZVQDlAxPrNuQjIb5GDjW/Y=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		m5DiQoPdrY+ipsO6U6uTYE0Onvg=
+		Mcr/jf6SYZsB3k4kB2az1Yg3B9Y=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -90,19 +90,19 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		m5DiQoPdrY+ipsO6U6uTYE0Onvg=
+		Mcr/jf6SYZsB3k4kB2az1Yg3B9Y=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wDpbUzRrsx+oKVNbd8CYwH4brqI=
+		pbJZuzcRjxZNJdPTLuONwPKIOac=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		pW8+H1ZZ2bTVaSiusZRTwXNqS6U=
+		CyyWpZVQDlAxPrNuQjIb5GDjW/Y=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bdn5oh8p4W6dM9t/vEbe8dJ9lbA=
+		azl2GaZQ4drCxycHSgMIjZcNM68=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -110,11 +110,11 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bdn5oh8p4W6dM9t/vEbe8dJ9lbA=
+		azl2GaZQ4drCxycHSgMIjZcNM68=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		HO1h0igGu3B/NmpOBYsXVPxBGwg=
+		Bd6yWpowQjXVNyp7ymtarGdyUf8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -183,14 +183,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SmLfcvbcDXMF9lTicQIVFHKGpARTSkYQgbzPeI+0JQY=
+			RB9oQZwEIj2GgWgTvbPTzu9nADEt+Nnct2Cy/9Abjag=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CzSVHK0NWHTpMDuZcRBXpLGp40LXa9ElQBTq4vCpu54=
+			/u26pjDsQWUoXlccqlvXRf9nmaco2NOMnd8GshGWqJA=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -246,14 +246,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eHsByb1nkh1gm5knC8zwLjjz5EMTR+6UfpQ+TIbWRCM=
+			1GQMJlln5s19RWpUpRPkozsmSfuTqcM1kqze1VL4R6U=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mDtnJV5L9dYQ58g61w3DbckJ3WfDR8Ns54Ar6TPlebo=
+			njzjV+zSLvcZKsJEd7lKkxPgoNsCsvR/praCkoj2uBQ=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -267,28 +267,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mDtnJV5L9dYQ58g61w3DbckJ3WfDR8Ns54Ar6TPlebo=
+			njzjV+zSLvcZKsJEd7lKkxPgoNsCsvR/praCkoj2uBQ=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q9++TFM3oabwmiyF2Ifph4L3nkx9Q5DQX1hGShoxTDc=
+			GUMoSANTCNVx7b2L+zOJHry+kQKVPDfr+WpyoIDfTlI=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eHsByb1nkh1gm5knC8zwLjjz5EMTR+6UfpQ+TIbWRCM=
+			1GQMJlln5s19RWpUpRPkozsmSfuTqcM1kqze1VL4R6U=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IH9NfXBvsL8/1hb2tbOlYW8qcLRgFuaDVnslhMsrKL8=
+			mYsIvgkMR9DjzF0ZDv1jJv3KrZApOBnUfhrdBH2m66E=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -302,14 +302,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IH9NfXBvsL8/1hb2tbOlYW8qcLRgFuaDVnslhMsrKL8=
+			mYsIvgkMR9DjzF0ZDv1jJv3KrZApOBnUfhrdBH2m66E=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xO5HvnEh4/hZALfqEIyvAY9TsvYnJi//ozoFk+j5hxw=
+			B7iW44mwiT6yotDanl1apCdlLjqcU63aAQAJyw90Xz4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

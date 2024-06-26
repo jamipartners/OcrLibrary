@@ -825,6 +825,125 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "OcrFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ImageManager",
+        "printedName": "ImageManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImageManager",
+                "printedName": "OcrFramework.ImageManager",
+                "usr": "s:12OcrFramework12ImageManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12OcrFramework12ImageManagerCACycfc",
+            "mangledName": "$s12OcrFramework12ImageManagerCACycfc",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "saveImage",
+            "printedName": "saveImage(image:filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
+            "mangledName": "$s12OcrFramework12ImageManagerC04saveC05image8filenameySo7UIImageC_SStF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadImage",
+            "printedName": "loadImage(filename:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIImage?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIImage",
+                    "printedName": "UIKit.UIImage",
+                    "usr": "c:objc(cs)UIImage"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12OcrFramework12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
+            "mangledName": "$s12OcrFramework12ImageManagerC04loadC08filenameSo7UIImageCSgSS_tF",
+            "moduleName": "OcrFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12OcrFramework12ImageManagerC",
+        "mangledName": "$s12OcrFramework12ImageManagerC",
+        "moduleName": "OcrFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1580,100 +1699,6 @@
             "declKind": "Func",
             "usr": "s:12OcrFramework0A10ControllerC5image4fromSo7UIImageCSgSo11CVBufferRefa_tF",
             "mangledName": "$s12OcrFramework0A10ControllerC5image4fromSo7UIImageCSgSo11CVBufferRefa_tF",
-            "moduleName": "OcrFramework",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveImage",
-            "printedName": "saveImage(image:filename:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "UIImage",
-                "printedName": "UIKit.UIImage",
-                "usr": "c:objc(cs)UIImage"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12OcrFramework0A10ControllerC9saveImage5image8filenameySo7UIImageC_SStF",
-            "mangledName": "$s12OcrFramework0A10ControllerC9saveImage5image8filenameySo7UIImageC_SStF",
-            "moduleName": "OcrFramework",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "loadImage",
-            "printedName": "loadImage(filename:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "UIKit.UIImage?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UIImage",
-                    "printedName": "UIKit.UIImage",
-                    "usr": "c:objc(cs)UIImage"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12OcrFramework0A10ControllerC9loadImage8filenameSo7UIImageCSgSS_tF",
-            "mangledName": "$s12OcrFramework0A10ControllerC9loadImage8filenameSo7UIImageCSgSS_tF",
-            "moduleName": "OcrFramework",
-            "declAttributes": [
-              "Custom",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getDocumentsDirectory",
-            "printedName": "getDocumentsDirectory()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "URL",
-                "printedName": "Foundation.URL",
-                "usr": "s:10Foundation3URLV"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:12OcrFramework0A10ControllerC21getDocumentsDirectory10Foundation3URLVyF",
-            "mangledName": "$s12OcrFramework0A10ControllerC21getDocumentsDirectory10Foundation3URLVyF",
             "moduleName": "OcrFramework",
             "declAttributes": [
               "Custom",
@@ -2511,21 +2536,21 @@
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewController\/OcrController.swift",
       "kind": "StringLiteral",
-      "offset": 3279,
+      "offset": 3317,
       "length": 9,
       "value": "\"Loading\""
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewController\/OcrController.swift",
       "kind": "Array",
-      "offset": 24715,
+      "offset": 23886,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/mustafa\/Documents\/OcrFramework\/OcrFramework\/OCR\/View\/OcrViewController\/OcrController.swift",
       "kind": "IntegerLiteral",
-      "offset": 24745,
+      "offset": 23916,
       "length": 2,
       "value": "10"
     },

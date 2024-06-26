@@ -36,6 +36,12 @@ extension OcrFramework.VideoCapture : AVFoundation.AVCaptureVideoDataOutputSampl
 public struct ServeResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
+public class ImageManager {
+  public init()
+  public func saveImage(image: UIKit.UIImage, filename: Swift.String)
+  public func loadImage(filename: Swift.String) -> UIKit.UIImage?
+  @objc deinit
+}
 public protocol OCRViewControllerDelegate : AnyObject {
   func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String, frontSide: Swift.String, backSide: Swift.String, cardType: Swift.String)
 }
@@ -60,9 +66,6 @@ public protocol OCRViewControllerDelegate : AnyObject {
 extension OcrFramework.OcrController : OcrFramework.VideoCaptureDelegate {
   @_Concurrency.MainActor(unsafe) public func videoCapture(_ capture: OcrFramework.VideoCapture, didCaptureVideoFrame pixelBuffer: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime)
   @_Concurrency.MainActor(unsafe) public func image(from pixelBuffer: CoreVideo.CVPixelBuffer) -> UIKit.UIImage?
-  @_Concurrency.MainActor(unsafe) public func saveImage(image: UIKit.UIImage, filename: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func loadImage(filename: Swift.String) -> UIKit.UIImage?
-  @_Concurrency.MainActor(unsafe) public func getDocumentsDirectory() -> Foundation.URL
 }
 extension OcrFramework.OcrController {
   @_Concurrency.MainActor(unsafe) public func visionRequestDidComplete(request: Vision.VNRequest, error: (any Swift.Error)?)
