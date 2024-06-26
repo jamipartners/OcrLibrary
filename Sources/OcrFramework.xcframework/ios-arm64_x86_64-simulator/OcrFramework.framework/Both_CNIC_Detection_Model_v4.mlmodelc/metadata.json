@@ -110,9 +110,9 @@
     ],
     "generatedClassName" : "Both_CNIC_Detection_Model_v4",
     "userDefinedMetadata" : {
-      "IoU threshold" : "0.45",
-      "Confidence threshold" : "0.25",
       "stride" : "32",
+      "Confidence threshold" : "0.25",
+      "IoU threshold" : "0.45",
       "docs" : "https:\/\/docs.ultralytics.com",
       "task" : "detect",
       "date" : "2024-04-26T10:14:19.308591",
