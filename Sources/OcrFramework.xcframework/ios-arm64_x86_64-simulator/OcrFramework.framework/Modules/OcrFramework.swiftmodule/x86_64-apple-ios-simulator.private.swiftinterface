@@ -1,7 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name OcrFramework
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import AVFoundation
+import CoreImage
 import CoreML
 import CoreMedia
 import CoreVideo
@@ -36,7 +38,7 @@ extension OcrFramework.VideoCapture : AVFoundation.AVCaptureVideoDataOutputSampl
 public struct ServeResponse : Swift.Decodable {
   public init(from decoder: any Swift.Decoder) throws
 }
-public class ImageManager {
+public class OcrImageManager {
   public init()
   public func saveImage(image: UIKit.UIImage, filename: Swift.String)
   public func loadImage(filename: Swift.String) -> UIKit.UIImage?
@@ -45,32 +47,35 @@ public class ImageManager {
 public protocol OCRViewControllerDelegate : AnyObject {
   func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String, frontSide: Swift.String, backSide: Swift.String, cardType: Swift.String)
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) public class OcrController : UIKit.UIViewController {
-  @_Concurrency.MainActor(unsafe) weak public var delegate: (any OcrFramework.OCRViewControllerDelegate)?
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor(unsafe) public func topView()
-  @_Concurrency.MainActor(unsafe) public func bottomView()
-  @_Concurrency.MainActor(unsafe) public func squareViewMain()
-  @_Concurrency.MainActor(unsafe) public func createGuideLabel()
-  @_Concurrency.MainActor(unsafe) public func cereateBottomGuideLabel()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func didReceiveMemoryWarning()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
-  @_Concurrency.MainActor(unsafe) public func setUpModel()
-  @_Concurrency.MainActor(unsafe) public func setUpCamera()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public func viewDidLayoutSubviews()
-  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
-  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class OcrController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency public var buttonColor: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var buttonTextColor: Swift.String
+  @_Concurrency.MainActor @preconcurrency public var base_url: Swift.String
+  @_Concurrency.MainActor @preconcurrency weak public var delegate: (any OcrFramework.OCRViewControllerDelegate)?
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency public func topView()
+  @_Concurrency.MainActor @preconcurrency public func bottomView()
+  @_Concurrency.MainActor @preconcurrency public func squareViewMain()
+  @_Concurrency.MainActor @preconcurrency public func createGuideLabel()
+  @_Concurrency.MainActor @preconcurrency public func cereateBottomGuideLabel()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func didReceiveMemoryWarning()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency public func setUpModel()
+  @_Concurrency.MainActor @preconcurrency public func setUpCamera()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
   @objc deinit
 }
 extension OcrFramework.OcrController : OcrFramework.VideoCaptureDelegate {
-  @_Concurrency.MainActor(unsafe) public func videoCapture(_ capture: OcrFramework.VideoCapture, didCaptureVideoFrame pixelBuffer: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime)
-  @_Concurrency.MainActor(unsafe) public func image(from pixelBuffer: CoreVideo.CVPixelBuffer) -> UIKit.UIImage?
+  @_Concurrency.MainActor @preconcurrency public func videoCapture(_ capture: OcrFramework.VideoCapture, didCaptureVideoFrame pixelBuffer: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime)
+  @_Concurrency.MainActor @preconcurrency public func image(from pixelBuffer: CoreVideo.CVPixelBuffer) -> UIKit.UIImage?
 }
 extension OcrFramework.OcrController {
-  @_Concurrency.MainActor(unsafe) public func visionRequestDidComplete(request: Vision.VNRequest, error: (any Swift.Error)?)
-  @_Concurrency.MainActor(unsafe) public func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String, frontSide: Swift.String, backSide: Swift.String, cardType: Swift.String)
-  @_Concurrency.MainActor(unsafe) public func checkForPositionNic() -> Swift.Bool
-  @_Concurrency.MainActor(unsafe) public func reset()
-  @_Concurrency.MainActor(unsafe) public func restartCamera()
+  @_Concurrency.MainActor @preconcurrency public func visionRequestDidComplete(request: Vision.VNRequest, error: (any Swift.Error)?)
+  @_Concurrency.MainActor @preconcurrency public func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String, frontSide: Swift.String, backSide: Swift.String, cardType: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func checkForPositionNic() -> Swift.Bool
+  @_Concurrency.MainActor @preconcurrency public func reset()
+  @_Concurrency.MainActor @preconcurrency public func restartCamera()
 }

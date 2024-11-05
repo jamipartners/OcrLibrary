@@ -1,60 +1,23 @@
 [
   {
-    "shortDescription" : "Ultralytics Both_CNIC_Detection_Model_v4 model trained on \/content\/gdrive\/MyDrive\/yolov8\/dataset.yaml",
     "metadataOutputVersion" : "3.0",
-    "outputSchema" : [
-      {
-        "dataType" : "Float32",
-        "hasShapeFlexibility" : "1",
-        "isOptional" : "0",
-        "shapeFlexibility" : "0... × 4",
-        "shapeRange" : "[[0, -1], [4, 4]]",
-        "formattedType" : "MultiArray (Float32 0 × 4)",
-        "type" : "MultiArray",
-        "shape" : "[0, 4]",
-        "name" : "confidence",
-        "shortDescription" : "Boxes × Class confidence (see user-defined metadata \"classes\")"
-      },
-      {
-        "dataType" : "Float32",
-        "hasShapeFlexibility" : "1",
-        "isOptional" : "0",
-        "shapeFlexibility" : "0... × 4",
-        "shapeRange" : "[[0, -1], [4, 4]]",
-        "formattedType" : "MultiArray (Float32 0 × 4)",
-        "type" : "MultiArray",
-        "shape" : "[0, 4]",
-        "name" : "coordinates",
-        "shortDescription" : "Boxes × [x, y, width, height] (relative to image size)"
-      }
-    ],
-    "version" : "8.2.2",
-    "modelParameters" : [
-
-    ],
-    "author" : "Ultralytics",
-    "specificationVersion" : 5,
-    "storagePrecision" : "Float16",
-    "license" : "AGPL-3.0 License (https:\/\/ultralytics.com\/license)",
-    "mlProgramOperationTypeHistogram" : {
-      "Concat" : 19,
-      "Silu" : 57,
-      "SliceByIndex" : 1,
-      "Sub" : 2,
-      "Transpose" : 2,
-      "UpsampleNearestNeighbor" : 2,
-      "Softmax" : 1,
-      "Mul" : 4,
-      "Cast" : 3,
-      "MaxPool" : 3,
-      "Add" : 8,
-      "Reshape" : 5,
-      "Sigmoid" : 1,
-      "Split" : 11,
-      "Conv" : 64
+    "userDefinedMetadata" : {
+      "IoU threshold" : "0.45",
+      "Confidence threshold" : "0.25",
+      "stride" : "32",
+      "docs" : "https:\/\/docs.ultralytics.com",
+      "task" : "detect",
+      "date" : "2024-04-26T10:14:19.308591",
+      "imgsz" : "[640, 640]",
+      "batch" : "1",
+      "names" : "{0: 'new_cnic_back', 1: 'new_cnic_front', 2: 'old_cnic_back', 3: 'old_cnic_front'}"
     },
-    "computePrecision" : "Mixed (Float16, Float32, Int32)",
-    "isUpdatable" : "0",
+    "classLabels" : [
+      "new_cnic_back",
+      "new_cnic_front",
+      "old_cnic_back",
+      "old_cnic_front"
+    ],
     "availability" : {
       "macOS" : "11.0",
       "tvOS" : "14.0",
@@ -62,17 +25,6 @@
       "watchOS" : "7.0",
       "iOS" : "14.0",
       "macCatalyst" : "14.0"
-    },
-    "modelType" : {
-      "name" : "MLModelType_pipeline",
-      "structure" : [
-        {
-          "name" : "MLModelType_mlProgram"
-        },
-        {
-          "name" : "MLModelType_nonMaximumSuppression"
-        }
-      ]
     },
     "inputSchema" : [
       {
@@ -102,24 +54,75 @@
         "shortDescription" : "(optional) Confidence threshold override (default: 0.25)"
       }
     ],
-    "classLabels" : [
-      "new_cnic_back",
-      "new_cnic_front",
-      "old_cnic_back",
-      "old_cnic_front"
+    "outputSchema" : [
+      {
+        "dataType" : "Float32",
+        "hasShapeFlexibility" : "1",
+        "isOptional" : "0",
+        "shapeFlexibility" : "0... × 4",
+        "shapeRange" : "[[0, -1], [4, 4]]",
+        "formattedType" : "MultiArray (Float32 0 × 4)",
+        "type" : "MultiArray",
+        "shape" : "[0, 4]",
+        "name" : "confidence",
+        "shortDescription" : "Boxes × Class confidence (see user-defined metadata \"classes\")"
+      },
+      {
+        "dataType" : "Float32",
+        "hasShapeFlexibility" : "1",
+        "isOptional" : "0",
+        "shapeFlexibility" : "0... × 4",
+        "shapeRange" : "[[0, -1], [4, 4]]",
+        "formattedType" : "MultiArray (Float32 0 × 4)",
+        "type" : "MultiArray",
+        "shape" : "[0, 4]",
+        "name" : "coordinates",
+        "shortDescription" : "Boxes × [x, y, width, height] (relative to image size)"
+      }
     ],
-    "generatedClassName" : "Both_CNIC_Detection_Model_v4",
-    "userDefinedMetadata" : {
-      "stride" : "32",
-      "Confidence threshold" : "0.25",
-      "IoU threshold" : "0.45",
-      "docs" : "https:\/\/docs.ultralytics.com",
-      "task" : "detect",
-      "date" : "2024-04-26T10:14:19.308591",
-      "imgsz" : "[640, 640]",
-      "batch" : "1",
-      "names" : "{0: 'new_cnic_back', 1: 'new_cnic_front', 2: 'old_cnic_back', 3: 'old_cnic_front'}"
+    "modelParameters" : [
+
+    ],
+    "storagePrecision" : "Float16",
+    "method" : "predict",
+    "version" : "8.2.2",
+    "isUpdatable" : "0",
+    "specificationVersion" : 5,
+    "stateSchema" : [
+
+    ],
+    "computePrecision" : "Mixed (Float16, Float32, Int32)",
+    "mlProgramOperationTypeHistogram" : {
+      "Concat" : 19,
+      "Silu" : 57,
+      "SliceByIndex" : 1,
+      "Sub" : 2,
+      "Transpose" : 2,
+      "UpsampleNearestNeighbor" : 2,
+      "Softmax" : 1,
+      "Mul" : 4,
+      "Cast" : 3,
+      "MaxPool" : 3,
+      "Add" : 8,
+      "Reshape" : 5,
+      "Sigmoid" : 1,
+      "Split" : 11,
+      "Conv" : 64
     },
-    "method" : "predict"
+    "shortDescription" : "Ultralytics Both_CNIC_Detection_Model_v4 model trained on \/content\/gdrive\/MyDrive\/yolov8\/dataset.yaml",
+    "license" : "AGPL-3.0 License (https:\/\/ultralytics.com\/license)",
+    "generatedClassName" : "Both_CNIC_Detection_Model_v4",
+    "author" : "Ultralytics",
+    "modelType" : {
+      "name" : "MLModelType_pipeline",
+      "structure" : [
+        {
+          "name" : "MLModelType_mlProgram"
+        },
+        {
+          "name" : "MLModelType_nonMaximumSuppression"
+        }
+      ]
+    }
   }
 ]
