@@ -38,7 +38,7 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/coremldata.bin</key>
 		<data>
-		EHM8QexC00cvowycPKg7031EWoQ=
+		lK6jEQAn1uGnrLNKHeqVapHlrY4=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DiiSF5oD2thy+H4h3WJRPIvjXEg=
+		46pyLlCqdoKS58ZD2iuhgu7AkLI=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -114,7 +114,7 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		DL3hzUgEhhiMArgfTaTk/uLRLrw=
+		DEZHSXlZD4KO7O4vcAiuMyRtrdw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -183,7 +183,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			xf9mJSfJwmqZ5RcMox51EGrsrAicBVJhgxA8ClZdQK0=
+			g9BVZZuArcfFxup1j6LSKMdkh8Jg55gCbsaMq6jEpgQ=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
@@ -274,7 +274,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			9A3gp8sAgSurdtTkjwz3ASrCoGl3MobkEkpVsokfkgo=
+			x1YmAx5ePHmB9a7wUq1v6Wy+zopkNtcJHKo3HOqHLso=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -309,7 +309,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dXGQUjsac+vkk1ADLg3DROY00XNvUd77O7gO1UibE54=
+			01mjLtX4c/qdrz4Aw8+GR0NXfqyc9KrIg9g6A5cY8jc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
