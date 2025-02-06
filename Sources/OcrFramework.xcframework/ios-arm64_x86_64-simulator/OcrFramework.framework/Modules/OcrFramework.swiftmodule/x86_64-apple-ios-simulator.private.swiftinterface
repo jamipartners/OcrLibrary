@@ -46,6 +46,7 @@ public class OcrImageManager {
 }
 public protocol OCRViewControllerDelegate : AnyObject {
   func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String, frontSide: Swift.String, backSide: Swift.String, cardType: Swift.String)
+  func sendBackResponse(message: Swift.String, code: Swift.String)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency public class OcrController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency public var buttonColor: Swift.String
