@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-compiler-version: Apple Swift version 6.2 effective-5.10 (swiftlang-6.2.0.19.9 clang-1700.3.19.1)
 // swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name OcrFramework
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2
 import AVFoundation
 import CoreImage
 import CoreML
@@ -19,7 +19,9 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public protocol VideoCaptureDelegate : AnyObject {
+  #if compiler(>=5.3) && $NonescapableTypes
   func videoCapture(_ capture: OcrFramework.VideoCapture, didCaptureVideoFrame: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime)
+  #endif
 }
 @objc @_inheritsConvenienceInitializers public class VideoCapture : ObjectiveC.NSObject {
   public var previewLayer: AVFoundation.AVCaptureVideoPreviewLayer?
@@ -41,7 +43,9 @@ public struct ServeResponse : Swift.Decodable {
 public class OcrImageManager {
   public init()
   public func saveImage(image: UIKit.UIImage, filename: Swift.String)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func loadImage(filename: Swift.String) -> UIKit.UIImage?
+  #endif
   @objc deinit
 }
 public protocol OCRViewControllerDelegate : AnyObject {
@@ -64,16 +68,26 @@ public protocol OCRViewControllerDelegate : AnyObject {
   @_Concurrency.MainActor @preconcurrency public func setUpModel()
   @_Concurrency.MainActor @preconcurrency public func setUpCamera()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 extension OcrFramework.OcrController : OcrFramework.VideoCaptureDelegate {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func videoCapture(_ capture: OcrFramework.VideoCapture, didCaptureVideoFrame pixelBuffer: CoreVideo.CVPixelBuffer?, timestamp: CoreMedia.CMTime)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func image(from pixelBuffer: CoreVideo.CVPixelBuffer) -> UIKit.UIImage?
+  #endif
 }
 extension OcrFramework.OcrController {
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency public func visionRequestDidComplete(request: Vision.VNRequest, error: (any Swift.Error)?)
+  #endif
   @_Concurrency.MainActor @preconcurrency public func sendBack(name: Swift.String, fatherName: Swift.String, gender: Swift.String, countryOfStay: Swift.String, cnic: Swift.String, issueDate: Swift.String, dateOfBirth: Swift.String, dateOfExpiry: Swift.String, husbandName: Swift.String, face: Swift.String, card: Swift.String, sign: Swift.String, frontSide: Swift.String, backSide: Swift.String, cardType: Swift.String)
   @_Concurrency.MainActor @preconcurrency public func checkForPositionNic() -> Swift.Bool
   @_Concurrency.MainActor @preconcurrency public func reset()
