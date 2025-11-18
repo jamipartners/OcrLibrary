@@ -38,11 +38,11 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/coremldata.bin</key>
 		<data>
-		4lShb+kffjO+39On4viSLzOTMN0=
+		jYCOje1qUiotgfF4ryVjBHSTc0M=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<data>
-		smOaYBhHnrcqiRL36G6V524EUGQ=
+		9BYIkZJlVUHckrjWc82ROQE+uNI=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		3Q+QPmiKQzX+xGIOrFvc9GOUMdQ=
+		888RTZqvbCBg0E1jTIsIz4DQMKQ=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -98,7 +98,7 @@
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		3Q+QPmiKQzX+xGIOrFvc9GOUMdQ=
+		888RTZqvbCBg0E1jTIsIz4DQMKQ=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -183,14 +183,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ig4LbpTCF+UJaB9d+sAFKS1OTolKt79Xd7CZvgUuSFA=
+			t/Dm5DojnKb2FcrAA5aqtkFMkXUsmqzCBU9UEYHkYzw=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bu9QqWhoBSNmwys9O2ikWUFzhzkxDiw4jIXpSS80XLs=
+			ztdiHCcwKbRliEPgal0SR4po2DebVinH6c5HU+iEY/0=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -246,7 +246,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r/tpWcPwkjdyJY9Jc7mEBx4eSI6FWUAPS9C+WUdOjjU=
+			zUC774yhECEbNFxCgEiN1UfVOyAHTG+aBHtgFo4lsIM=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -281,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			r/tpWcPwkjdyJY9Jc7mEBx4eSI6FWUAPS9C+WUdOjjU=
+			zUC774yhECEbNFxCgEiN1UfVOyAHTG+aBHtgFo4lsIM=
 			</data>
 		</dict>
 		<key>Modules/OcrFramework.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
