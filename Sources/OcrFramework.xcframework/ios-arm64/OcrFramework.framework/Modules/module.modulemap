@@ -7,5 +7,4 @@ framework module OcrFramework {
 
 module OcrFramework.Swift {
   header "OcrFramework-Swift.h"
-  requires objc
 }
