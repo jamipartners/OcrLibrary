@@ -38,11 +38,11 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/coremldata.bin</key>
 		<data>
-		FVONJFoUOTJos/n6BerEAYQLAbQ=
+		dsp0yjYZmDQvw3Dj8f6wga2yRqE=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<data>
-		0Vp2YVTSpyUmoDLjRFH0z6PIkWY=
+		DTL8zjhA2vrdtDwLLiCCXhEiqBk=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/analytics/coremldata.bin</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/coremldata.bin</key>
 		<data>
-		TK32KprZ4q71zDT2vWwkGZuDoNA=
+		6QgUJdvAZtjimhmFmkQ5iOehbdg=
 		</data>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/model.mil</key>
 		<data>
@@ -74,7 +74,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		w1nSwEdCC/GcT6RDJBqThlk7S7Y=
+		j4y/xdassjpM2NmyZ26UgRHwyvI=
 		</data>
 		<key>Modules/OcrFramework.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -183,14 +183,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			k57EAigYceQ9g2OmuesSkOotixDaru85QAlGURfoikg=
+			NWmjGsJmHBjXo3JoqO01WjH+Pee19/AV5IW0DP9wDYI=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/metadata.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zaLVQALeA8pc27+BoGSURlqqqAvPVSPCCFRFK4Yz3v0=
+			867wVZzX11SNyoYttTkW3IepS6aWlUpLEcjHXP2SsC8=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/analytics/coremldata.bin</key>
@@ -204,7 +204,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			08+fHAsw+BRLOggndvjZNpEUr28bNnqCrBF9ksi7RVE=
+			onyiFviN+lcNRTXJ/JIA3tOGPsSi6IFF6MNt7o+ewEc=
 			</data>
 		</dict>
 		<key>Both_CNIC_Detection_Model_v4.mlmodelc/model0/model.mil</key>
